@@ -9,7 +9,7 @@ import simg8 from "/public/images/service/ba1.jpg";
 import simg9 from "/public/images/service/ta2.jpg";
 import simg10 from "/public/images/service/comp1.jpg";
 import simg11 from "/public/images/service/off1.jpg";
-import simg12 from "/public/images/service/curtain2.jpg";
+import simg12 from "../public/images/service/curtain2.jpg";
 
 import sIcon1 from "/public/images/icon/carpet.svg";
 import sIcon2 from "/public/images/icon/season.svg";
@@ -30,8 +30,8 @@ import sSingleimg3 from "/public/images/service/s2.jpg";
 import sSingleimg4 from "/public/images/service/s3.jpg";
 import sSingleimg5 from "/public/images/service/mo4.jpg";
 import sSingleimg6 from "/public/images/service/mo3.jpg";
-import sSingleimg7 from "/public/images/service/K2.jpg";
-import sSingleimg8 from "/public/images/service/K3.jpg";
+import sSingleimg7 from "/public/images/service/k2.jpg";
+import sSingleimg8 from "/public/images/service/k3.jpg";
 import sSingleimg9 from "/public/images/service/ba2.jpg";
 import sSingleimg10 from "/public/images/service/ba3.jpg";
 import sSingleimg11 from "/public/images/service/wi3.jpg";
@@ -46,7 +46,7 @@ import sSingleimg19 from "/public/images/service/off2.jpg";
 import sSingleimg20 from "/public/images/service/comp2.jpg";
 import sSingleimg21 from "/public/images/service/off3.jpg";
 import sSingleimg22 from "/public/images/service/off2.jpg";
-import sSingleimg23 from "/public/images/service/curtain1.jpg";
+import sSingleimg23 from "../public/images/service/curtain1.jpg";
 import sSingleimg24 from "/public/images/service/mi2.jpg";
 
 const Services = [
