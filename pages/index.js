@@ -15,7 +15,7 @@ import Footer from "../components/footer/Footer.js";
 const HomePage = () => {
   return (
     <Fragment>
-      <Navbar />
+      <Navbar topbarNone={"topbar-none"} />
       <Hero />
       <ServiceSection />
       <WorkSection />

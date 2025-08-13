@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <title>Sweep Clean LTD</title>
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="icon" type="image/png" href="/images/fff.png" />
       </Head>
       <Component {...pageProps} />
       <ToastContainer />
