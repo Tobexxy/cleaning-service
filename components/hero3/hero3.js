@@ -22,7 +22,7 @@ const Hero3 = () => {
                   <i
                     className="fa fa-angle-double-right"
                     aria-hidden="true"></i>{" "}
-                  Contact Us
+                  Contac Us
                 </Link>
               </div>
             </div>

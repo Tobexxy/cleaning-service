@@ -26,7 +26,7 @@ const Hero = () => {
                   <i
                     className="fa fa-angle-double-right"
                     aria-hidden="true"></i>{" "}
-                  Our Best Offers
+                  Our Best Offer
                 </Link>
               </div>
             </div>
