@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Logo from "/public/images/logo8.png"; // Adjust the path as necessary
+// Adjust the path as necessary
 import Services from "../../api/service";
 import Image from "next/image";
 
@@ -20,7 +20,7 @@ const Footer = (props) => {
             <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
               <div className="widget about-widget">
                 <div className="logo widget-title">
-                  <Image src={Logo} alt="blog" />
+                  <img src="/images/logo8.png" alt="Logo" />
                 </div>
                 <p>
                   We’re more than just cleaners we’re here to make your space

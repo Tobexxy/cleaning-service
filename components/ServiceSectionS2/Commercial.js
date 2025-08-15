@@ -16,7 +16,7 @@ const Commercial = (props) => {
             <div className="wpo-service-item">
               <div className="wpo-service-icon">
                 <div className="icon">
-                  <Image src={service.sIcon} alt="" />
+                  <img src={service.sIcon} alt="" />
                 </div>
               </div>
               <div className="wpo-service-text">

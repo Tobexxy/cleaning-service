@@ -34,7 +34,11 @@ const ServiceSinglePage = (props) => {
             <div className="col-lg-8 col-md-12">
               <div className="wpo-service-single-wrap">
                 <div className="wpo-service-single-img">
-                  <img src={serviceDetails?.sImg} alt="" />
+                  <img
+                    src={serviceDetails?.sImg}
+                    alt={serviceDetails?.sTitle}
+                    style={{ maxWidth: "100%", height: "auto" }}
+                  />
                 </div>
                 <div className="wpo-service-single-content">
                   <div className="wpo-service-single-content-des">
@@ -69,7 +73,7 @@ const ServiceSinglePage = (props) => {
                           <div className="wpo-related-icon">
                             <div className="icon">
                               <i>
-                                <img src={service.sIcon} alt="" />
+                                <Image src={service.sIcon} alt="" />
                               </i>
                             </div>
                           </div>
