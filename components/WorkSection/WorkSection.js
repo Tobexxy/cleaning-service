@@ -1,8 +1,4 @@
 import React from "react";
-
-import wImg1 from "/public/images/work/4.jpeg";
-import wImg2 from "/public/images/work/5.jpeg";
-import wImg3 from "/public/images/work/6.jpeg";
 import Image from "next/image";
 
 const WorkSection = (props) => {
