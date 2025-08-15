@@ -25,7 +25,7 @@ const WorkSection = (props) => {
             <div className="col col-lg-4 col-md-6 col-12">
               <div className="wpo-work-item">
                 <div className="wpo-work-img">
-                  <Image src={wImg1} alt="" />
+                  <img src="/images/work/4.jpeg" alt="" />
                 </div>
                 <div className="wpo-work-text">
                   <h2>Book Your Service</h2>
@@ -47,14 +47,14 @@ const WorkSection = (props) => {
                   <span>2</span>
                 </div>
                 <div className="wpo-work-img">
-                  <Image src={wImg2} alt="" />
+                  <img src="/images/work/5.jpeg" alt="" />
                 </div>
               </div>
             </div>
             <div className="col col-lg-4 col-md-6 col-12">
               <div className="wpo-work-item">
                 <div className="wpo-work-img">
-                  <Image src={wImg3} alt="" />
+                  <img src="/images/work/6.jpeg" alt="" />
                 </div>
                 <div className="wpo-work-text">
                   <h2>You Relax & Enjoy</h2>
