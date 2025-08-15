@@ -34,7 +34,7 @@ const ServiceSinglePage = (props) => {
             <div className="col-lg-8 col-md-12">
               <div className="wpo-service-single-wrap">
                 <div className="wpo-service-single-img">
-                  <Image src={serviceDetails?.sImg} alt="" />
+                  <img src={serviceDetails?.sImg} alt="" />
                 </div>
                 <div className="wpo-service-single-content">
                   <div className="wpo-service-single-content-des">
@@ -51,10 +51,10 @@ const ServiceSinglePage = (props) => {
                     <div className="wpo-service-single-sub-img">
                       <ul>
                         <li>
-                          <Image src={serviceDetails?.ssImg1} alt="" />
+                          <img src={serviceDetails?.ssImg1} alt="" />
                         </li>
                         <li>
-                          <Image src={serviceDetails?.ssImg2} alt="" />
+                          <img src={serviceDetails?.ssImg2} alt="" />
                         </li>
                       </ul>
                     </div>
@@ -69,7 +69,7 @@ const ServiceSinglePage = (props) => {
                           <div className="wpo-related-icon">
                             <div className="icon">
                               <i>
-                                <Image src={service.sIcon} alt="" />
+                                <img src={service.sIcon} alt="" />
                               </i>
                             </div>
                           </div>
