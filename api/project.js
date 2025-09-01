@@ -1,16 +1,10 @@
-import pimg from "/public/images/projects/4.jpg";
-import pimg2 from "/public/images/projects/5.jpg";
-import pimg3 from "/public/images/projects/6.jpg";
-import pimg4 from "/public/images/projects/7.jpg";
-import pimg5 from "/public/images/projects/8.jpg";
-
 import sSingleimg1 from "/public/images/project-single/2.jpg";
 import sSingleimg2 from "/public/images/project-single/3.jpg";
 
 const Projects = [
   {
     Id: "1",
-    pImg: pimg,
+    pImg: "/images/projects/4.jpg",
     subTitle: "London, UK",
     title: "Carpet",
     slug: "Carpet",
@@ -21,7 +15,7 @@ const Projects = [
   },
   {
     Id: "2",
-    pImg: pimg2,
+    pImg: "/images/projects/5.jpg",
     subTitle: "Birmingham, UK",
     title: "Window",
     slug: "Seasonal",
@@ -32,7 +26,7 @@ const Projects = [
   },
   {
     Id: "3",
-    pImg: pimg3,
+    pImg: "/images/projects/6.jpg",
     subTitle: "Essex, UK",
     title: "Reception Area",
     slug: "Express",
@@ -43,7 +37,7 @@ const Projects = [
   },
   {
     Id: "4",
-    pImg: pimg4,
+    pImg: "/images/projects/7.jpg",
     subTitle: "Mancheter, UK",
     title: "Kitchen",
     slug: "Kitchen",
@@ -54,7 +48,7 @@ const Projects = [
   },
   {
     Id: "5",
-    pImg: pimg5,
+    pImg: "/images/projects/8.jpg",
     subTitle: "Bournemouth, UK",
     title: "Bathroom",
     slug: "Bathroom",

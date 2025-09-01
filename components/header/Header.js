@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import Link from "next/link";
 import HeaderTopbar from "../HeaderTopbar/HeaderTopbar";
 import MobileMenu from "../MobileMenu/MobileMenu";
-import Logo from "/public/images/logo8.png"; // Adjust the path as necessary
-import Image from "next/image";
 
 const Header = (props) => {
   const [menuActive, setMenuState] = useState(false);
@@ -33,7 +31,7 @@ const Header = (props) => {
                     onClick={ClickHandler}
                     className="navbar-brand"
                     href="/home3">
-                    <Image src={Logo} alt="" />
+                    <img src="/images/logo8.png" alt="Logo" />
                   </Link>
                 </div>
               </div>

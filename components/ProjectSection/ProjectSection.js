@@ -80,7 +80,7 @@ const ProjectSection = () => {
                 {Projects.slice(0, 6).map((project, prj) => (
                   <div className="item" key={prj}>
                     <div className="single-work">
-                      <Image
+                      <img
                         className="img-responsive"
                         src={project.pImg}
                         alt=""
