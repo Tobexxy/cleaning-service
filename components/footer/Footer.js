@@ -36,23 +36,26 @@ const Footer = (props) => {
                 </div>
                 <ul>
                   <li>
+                    <Link href="/home3">Home </Link>
+                  </li>
+                  <li>
                     <Link href="/about">About Us </Link>
                   </li>
                   <li>
                     <Link href="/service-s2">Service</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/appointment">Appointment</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="/contact">Contact Us </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/project">Projects</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/terms">Terms & Conditions</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -105,7 +108,7 @@ const Footer = (props) => {
             <div className="col col-xs-12">
               <p className="copyright">
                 {" "}
-                Copyright &copy; 2023 | All Rights Reserved
+                Copyright &copy; 2025 | All Rights Reserved
               </p>
             </div>
           </div>

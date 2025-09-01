@@ -26,17 +26,17 @@ const Appointment = () => {
   };
 
   const submitHandler = (e) => {
-    e.preventDefault();
     if (validator.allValid()) {
       validator.hideMessages();
-      setForms({
-        name: "",
-        email: "",
-        subject: "",
-        phone: "",
-        message: "",
-      });
+      // setForms({
+      //   name: "",
+      //   email: "",
+      //   subject: "",
+      //   phone: "",
+      //   message: "",
+      // });
     } else {
+      e.preventDefault();
       validator.showMessages();
     }
   };
@@ -53,7 +53,10 @@ const Appointment = () => {
                 </div>
                 <form
                   onSubmit={(e) => submitHandler(e)}
-                  className="contact-validation-active">
+                  className="contact-validation-active"
+                  target="_blank"
+                  action="https://formsubmit.co/tobiogunleye76@gmail.com"
+                  method="POST">
                   <div className="row">
                     <div className="col col-lg-6 col-12">
                       <div className="form-field">
@@ -96,7 +99,7 @@ const Appointment = () => {
                         <input
                           className="form-control"
                           value={forms.phone}
-                          type="phone"
+                          type="tel"
                           name="phone"
                           onBlur={(e) => changeHandler(e)}
                           onChange={(e) => changeHandler(e)}
@@ -109,7 +112,7 @@ const Appointment = () => {
                         )}
                       </div>
                     </div>
-                    <div className="col col-lg-6 col-12">
+                    {/* <div className="col col-lg-6 col-12">
                       <div className="form-field">
                         <select
                           className="form-control"
@@ -133,7 +136,7 @@ const Appointment = () => {
                           "required|alpha_space"
                         )}
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col fullwidth col-lg-12 ">
                       <textarea
                         className="form-control"
@@ -146,6 +149,13 @@ const Appointment = () => {
                       {validator.message("message", forms.message, "required")}
                     </div>
                   </div>
+                  <input
+                    type="hidden"
+                    name="_blacklist"
+                    value="spammy pattern, banned term, phrase"
+                  />
+                  <input type="hidden" name="_captcha" value="false" />
+
                   <div className="submit-area">
                     <button type="submit" className="theme-btn">
                       <i

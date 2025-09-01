@@ -17,7 +17,7 @@ const Header = (props) => {
 
   return (
     <header id="header" className={props.topbarNone}>
-      <HeaderTopbar />
+      {/* <HeaderTopbar /> */}
       <div className={`wpo-site-header ${props.hclass}`}>
         <nav className="navigation navbar navbar-expand-lg navbar-light">
           <div className="container">
